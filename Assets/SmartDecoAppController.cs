@@ -22,6 +22,10 @@ public class SmartDecoAppController : MonoBehaviour
     private List<Button> ButtonList;
     public Color pressedButtonColor;
 
+    public void Awake()
+    {
+        Screen.orientation = ScreenOrientation.Portrait;
+    }
 
     void Start()
     {
