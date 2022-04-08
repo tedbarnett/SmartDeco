@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Content
+    uniqueID: 539943329
+    locked: 0
+  - name: Logo
+    uniqueID: 1522871371
+    locked: 0
+  - name: Main Buttons
+    uniqueID: 1872453697
+    locked: 0
