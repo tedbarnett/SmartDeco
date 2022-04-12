@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R58MB1GCNDM",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 11445,
+        "processId": 7292,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,6 +12,12 @@
             "deviceId": "R58MB1GCNDM",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 11445,
+            "exited": false
+        },
+        {
+            "deviceId": "R58MB1GCNDM",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 7292,
             "exited": false
         }
     ],
