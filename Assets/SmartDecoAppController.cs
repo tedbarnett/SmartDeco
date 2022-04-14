@@ -7,7 +7,9 @@ public class SmartDecoAppController : MonoBehaviour
 {
 
     public GameObject marketPlacePanel;
-    public GameObject itemViewPanel;
+    public GameObject itemViewPanelTJJ;
+    public GameObject itemViewPanelRed;
+    public GameObject itemViewPanelVoodoo;
     public GameObject faceCastPanel;
     public GameObject devicesPanel;
     public GameObject accountPanel;
@@ -30,7 +32,10 @@ public class SmartDecoAppController : MonoBehaviour
     void Start()
     {
         marketPlacePanel.SetActive(true);
-        itemViewPanel.SetActive(false);
+        itemViewPanelTJJ.SetActive(false);
+        itemViewPanelRed.SetActive(false);
+        if(itemViewPanelVoodoo)
+            itemViewPanelVoodoo.SetActive(false);
         faceCastPanel.SetActive(false);
         devicesPanel.SetActive(false);
         accountPanel.SetActive(false);
@@ -111,6 +116,9 @@ public class SmartDecoAppController : MonoBehaviour
         accountPanel.SetActive(false);
         searchPanel.SetActive(false);
 
-        itemViewPanel.SetActive(false);
+        itemViewPanelTJJ.SetActive(false);
+        itemViewPanelRed.SetActive(false);
+        if (itemViewPanelVoodoo)
+            itemViewPanelVoodoo.SetActive(false);
     }
 }
