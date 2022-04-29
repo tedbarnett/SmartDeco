@@ -23,6 +23,15 @@ namespace DlibFaceLandmarkDetectorExample
     [RequireComponent(typeof(WebCamTextureToMatHelper), typeof(ImageOptimizationHelper))]
     public class ARHeadWebCamTextureExample : MonoBehaviour
     {
+
+        //pumpkins for testing JJ AR
+        //different model for eyes open vs closed and mouth open vs closed
+        //should later tween one model towards the transform points
+        public GameObject PumpkinEOMO;
+        public GameObject PumpkinEOMC;
+        public GameObject PumpkinECMO;
+        public GameObject PumpkinECMC;
+
         /// <summary>
         /// Determines if displays face points.
         /// </summary>
@@ -589,12 +598,12 @@ namespace DlibFaceLandmarkDetectorExample
                             new Point(points[16].x, points[16].y)//r ear (Bitragion breadth)
                         );
 
-                        if (Mathf.Abs((float)(points[43].y - points[46].y)) > Mathf.Abs((float)(points[42].x - points[45].x)) / 5.0)
+                        if (Mathf.Abs((float)(points[43].y - points[46].y)) > Mathf.Abs((float)(points[42].x - points[45].x)) / 6.5)
                         {
                             isRightEyeOpen = true;
                         }
 
-                        if (Mathf.Abs((float)(points[38].y - points[41].y)) > Mathf.Abs((float)(points[39].x - points[36].x)) / 5.0)
+                        if (Mathf.Abs((float)(points[38].y - points[41].y)) > Mathf.Abs((float)(points[39].x - points[36].x)) / 6.5)
                         {
                             isLeftEyeOpen = true;
                         }
@@ -720,10 +729,24 @@ namespace DlibFaceLandmarkDetectorExample
 
                         if (displayEffects)
                         {
-                            rightEye.SetActive(isRightEyeOpen);
-                            leftEye.SetActive(isLeftEyeOpen);
+                            //rightEye.SetActive(isRightEyeOpen);
+                            //leftEye.SetActive(isLeftEyeOpen);
 
-                            if (isMouthOpen)
+                            //Pumpkin Garbage, replace with tweening
+                            if (isMouthOpen) {
+                                if (isLeftEyeOpen && isRightEyeOpen)
+                                    SetAllPumpkinsUnactive("EOMO");
+                                else
+                                    SetAllPumpkinsUnactive("ECMO");
+                            }
+                            else {
+                                if (isLeftEyeOpen && isRightEyeOpen)
+                                    SetAllPumpkinsUnactive("EOMC");
+                                else
+                                    SetAllPumpkinsUnactive("ECMC");
+                            }
+
+                            /*if (isMouthOpen)
                             {
                                 mouth.SetActive(true);
                                 foreach (ParticleSystem ps in mouthParticleSystem)
@@ -745,7 +768,7 @@ namespace DlibFaceLandmarkDetectorExample
                                     var em = ps.emission;
                                     em.enabled = false;
                                 }
-                            }
+                            }*/
                         }
 
                         // Convert to unity pose data.
@@ -961,6 +984,33 @@ namespace DlibFaceLandmarkDetectorExample
             else
             {
                 enableLowPassFilter = false;
+            }
+        }
+
+        public void SetAllPumpkinsUnactive(string keepActive) {
+            if(keepActive == "EOMO") {
+                PumpkinEOMO.SetActive(true);
+                PumpkinEOMC.SetActive(false);
+                PumpkinECMO.SetActive(false);
+                PumpkinECMC.SetActive(false);
+            }
+            else if(keepActive == "EOMC") {
+                PumpkinEOMO.SetActive(false);
+                PumpkinEOMC.SetActive(true);
+                PumpkinECMO.SetActive(false);
+                PumpkinECMC.SetActive(false);
+            }
+            else if (keepActive == "ECMO") {
+                PumpkinEOMO.SetActive(false);
+                PumpkinEOMC.SetActive(false);
+                PumpkinECMO.SetActive(true);
+                PumpkinECMC.SetActive(false);
+            }
+            else if (keepActive == "ECMC") {
+                PumpkinEOMO.SetActive(false);
+                PumpkinEOMC.SetActive(false);
+                PumpkinECMO.SetActive(false);
+                PumpkinECMC.SetActive(true);
             }
         }
     }

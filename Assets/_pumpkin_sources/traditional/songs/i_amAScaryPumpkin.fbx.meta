@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 5e3e0499509ab4e49b53ec1136e56c13
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bottomnurbsSquare1
+    100002: brow_l_dn_ctrl
+    100004: brow_l_dn_grp
+    100006: brow_l_up1_ctrl
+    100008: brow_l_up1_grp
+    100010: brow_l_up2_ctrl
+    100012: brow_l_up2_grp
+    100014: brow_l_up3_ctrl
+    100016: brow_l_up3_grp
+    100018: brow_r_dn_ctrl
+    100020: brow_r_dn_grp
+    100022: brow_r_up1_ctrl
+    100024: brow_r_up1_grp
+    100026: brow_r_up2_ctrl
+    100028: brow_r_up2_grp
+    100030: brow_r_up3_ctrl
+    100032: brow_r_up3_grp
+    100034: classic_brow_l_dn
+    100036: classic_brow_l_up1
+    100038: classic_brow_l_up2
+    100040: classic_brow_l_up3
+    100042: classic_brow_r_dn
+    100044: classic_brow_r_up1
+    100046: classic_brow_r_up2
+    100048: classic_brow_r_up3
+    100050: classic_jaw
+    100052: classic_mouth_c_dn
+    100054: classic_mouth_c_up_j
+    100056: classic_mouth_l
+    100058: classic_mouth_l1_up_j
+    100060: classic_mouth_l_dn
+    100062: classic_mouth_r
+    100064: classic_mouth_r1_up_j
+    100066: classic_mouth_r_dn
+    100068: classic_nose_j
+    100070: group1
+    100072: //RootNode
+    100074: jaw_ctrl
+    100076: jaw_ctrl_grp
+    100078: leftnurbsSquare1
+    100080: mouth_c_up_ctrl
+    100082: mouth_c_up_grp
+    100084: mouth_dn_c_ctrl
+    100086: mouth_dn_c_grp
+    100088: mouth_dn_l_ctrl
+    100090: mouth_dn_l_grp
+    100092: mouth_dn_r_ctrl
+    100094: mouth_dn_r_grp
+    100096: mouth_l1_up_ctrl
+    100098: mouth_l1_up_grp
+    100100: mouth_l_ctrl
+    100102: mouth_l_grp
+    100104: mouth_r1_up_ctrl
+    100106: mouth_r1_up_grp
+    100108: mouth_r_ctrl
+    100110: mouth_r_grp
+    100112: nose_ctrl
+    100114: nose_grp
+    100116: pumpkin_classic_ctrls
+    100118: pumpkin_classic_Head
+    100120: pumpkin_classic_msh
+    100122: rightnurbsSquare1
+    100124: topnurbsSquare1
+    100126: W_O_CTRL
+    100128: WO
+    400000: bottomnurbsSquare1
+    400002: brow_l_dn_ctrl
+    400004: brow_l_dn_grp
+    400006: brow_l_up1_ctrl
+    400008: brow_l_up1_grp
+    400010: brow_l_up2_ctrl
+    400012: brow_l_up2_grp
+    400014: brow_l_up3_ctrl
+    400016: brow_l_up3_grp
+    400018: brow_r_dn_ctrl
+    400020: brow_r_dn_grp
+    400022: brow_r_up1_ctrl
+    400024: brow_r_up1_grp
+    400026: brow_r_up2_ctrl
+    400028: brow_r_up2_grp
+    400030: brow_r_up3_ctrl
+    400032: brow_r_up3_grp
+    400034: classic_brow_l_dn
+    400036: classic_brow_l_up1
+    400038: classic_brow_l_up2
+    400040: classic_brow_l_up3
+    400042: classic_brow_r_dn
+    400044: classic_brow_r_up1
+    400046: classic_brow_r_up2
+    400048: classic_brow_r_up3
+    400050: classic_jaw
+    400052: classic_mouth_c_dn
+    400054: classic_mouth_c_up_j
+    400056: classic_mouth_l
+    400058: classic_mouth_l1_up_j
+    400060: classic_mouth_l_dn
+    400062: classic_mouth_r
+    400064: classic_mouth_r1_up_j
+    400066: classic_mouth_r_dn
+    400068: classic_nose_j
+    400070: group1
+    400072: //RootNode
+    400074: jaw_ctrl
+    400076: jaw_ctrl_grp
+    400078: leftnurbsSquare1
+    400080: mouth_c_up_ctrl
+    400082: mouth_c_up_grp
+    400084: mouth_dn_c_ctrl
+    400086: mouth_dn_c_grp
+    400088: mouth_dn_l_ctrl
+    400090: mouth_dn_l_grp
+    400092: mouth_dn_r_ctrl
+    400094: mouth_dn_r_grp
+    400096: mouth_l1_up_ctrl
+    400098: mouth_l1_up_grp
+    400100: mouth_l_ctrl
+    400102: mouth_l_grp
+    400104: mouth_r1_up_ctrl
+    400106: mouth_r1_up_grp
+    400108: mouth_r_ctrl
+    400110: mouth_r_grp
+    400112: nose_ctrl
+    400114: nose_grp
+    400116: pumpkin_classic_ctrls
+    400118: pumpkin_classic_Head
+    400120: pumpkin_classic_msh
+    400122: rightnurbsSquare1
+    400124: topnurbsSquare1
+    400126: W_O_CTRL
+    400128: WO
+    2100000: classic_outer
+    2100002: classic_inner
+    4300000: pumpkin_classic_msh
+    7400000: I_mAScaryPumpkin_v04
+    9500000: //RootNode
+    13700000: pumpkin_classic_msh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
