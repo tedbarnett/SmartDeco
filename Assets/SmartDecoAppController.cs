@@ -14,6 +14,7 @@ public class SmartDecoAppController : MonoBehaviour
     public GameObject devicesPanel;
     public GameObject accountPanel;
     public GameObject searchPanel;
+    public GameObject Background;
 
     public Button marketPlaceButton;
     public Button faceCastButton;
@@ -71,6 +72,7 @@ public class SmartDecoAppController : MonoBehaviour
     {
         HighlightPressedButton(faceCastButton);
         HideAllPanels();
+        Background.SetActive(false);
         faceCastPanel.SetActive(true);
     }
     public void pressedDevicesButton()
@@ -120,5 +122,7 @@ public class SmartDecoAppController : MonoBehaviour
         itemViewPanelRed.SetActive(false);
         if (itemViewPanelVoodoo)
             itemViewPanelVoodoo.SetActive(false);
+
+        Background.SetActive(true);
     }
 }

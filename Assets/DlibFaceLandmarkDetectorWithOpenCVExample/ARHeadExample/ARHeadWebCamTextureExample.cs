@@ -314,6 +314,8 @@ namespace DlibFaceLandmarkDetectorExample
 #else
             dlibShapePredictorFilePath = DlibFaceLandmarkDetector.UnityUtils.Utils.getFilePath(dlibShapePredictorFileName);
             Run();
+
+            OnChangeCameraButtonClick();
 #endif
         }
 
