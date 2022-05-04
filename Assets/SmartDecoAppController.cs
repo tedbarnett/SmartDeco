@@ -72,7 +72,7 @@ public class SmartDecoAppController : MonoBehaviour
     {
         HighlightPressedButton(faceCastButton);
         HideAllPanels();
-        Background.SetActive(false);
+        //Background.SetActive(false);
         faceCastPanel.SetActive(true);
     }
     public void pressedDevicesButton()
